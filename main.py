@@ -33,7 +33,7 @@ def run_pipeline():
         )
         logger.info("Pipeline finished successfully.")
     except Exception as e:
-        logger.error(f"Pipeline failed: {e}")
+        logger.error("Pipeline failed:", exc_info=True)
         sys.exit(1)
 
 
