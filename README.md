@@ -44,3 +44,9 @@ main.py     - runs the full pipeline
 
 Open `transform/transform.py` and replace the `TODO` section with rules specific to your columns
 (type coercion, required-field checks, value-range validation, etc.).
+
+## Dashboard
+
+![Power BI Dashboard](docs/dashboard.png)
+
+Live Power BI dashboard connected directly to the Snowflake `TRANSACTIONS` table — 514K+ Slovak public procurement records, showing total contract count, top buyers by spend, and contract value trends over time.
